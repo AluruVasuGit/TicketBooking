@@ -1,0 +1,342 @@
+ 
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+
+*{
+    box-sizing: border-box;
+}
+
+.body{
+    margin: 0px;
+}
+
+.page-1-background{
+    background-image: linear-gradient(90deg,  rgba(0,0,0,1) 0%, rgba(0,0,0,0.4) 50%), url('https://wallup.net/wp-content/uploads/2016/04/06/332782-photography-nature-landscape-mountain-lake-trees-forest-water.jpg');
+    height: 100vh;
+    background-size: cover;
+}
+
+.page-1-heading{
+    color: #ffffff;
+    font-size: 4rem;
+    font-family: "Roboto";
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.page-1-navbar-background{
+    background-color: rgba(0,0,0,0.2)
+}
+
+.page-1-main-content{
+    height: 90vh;
+    width: 50vw;
+}
+
+.page-1-span{
+    font-family: "Roboto";
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.page-1-logo{
+    height: 70px;
+    width: 70px;
+    
+}
+
+
+
+
+
+
+
+.login-page-background-image{
+    background-image: linear-gradient(0deg,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 50%), url('https://w0.peakpx.com/wallpaper/755/472/HD-wallpaper-people-on-the-beach-travel-concepts-sea-tropical-islands-ocean-beach-deckchairs-vacation-relax.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: content;
+    align-items: center;
+}
+
+.login-page-card{
+    height: 80vh;
+    width: 60vw;
+    background-color: #ffffff;
+    margin-left: 20vw;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+}
+
+.login-page-card-image{
+    width: 35vw;
+}
+
+.login-page-log-buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+.login-page-log-button{
+    height: 40px;
+    width: 12vw;
+    text-align: center;
+    border-width: 0px;
+    border-style: none;
+    background-color: none;
+    font-family: "Roboto";
+    font-size: 18px;
+}
+
+.login-page-card-heading{
+    font-size: 23px;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+
+.login-page-card-handler{
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.login-page-input{
+    height: 35px;
+    width: 18vw;
+    border-radius: 0px;
+    border-style: none;
+    padding: 10px;
+    font-size: 14px;
+
+}
+
+.login-page-err-msg{
+    font-size: 12px;
+    color: red;
+}
+
+
+
+
+
+.selection_background{
+    background-image: url("https://img.freepik.com/free-photo/breathtaking-shot-beautiful-stones-turquoise-water-lake-hills-background_181624-12847.jpg?w=2000");
+    height: 100vh;
+    background-position: center;
+
+}
+
+.cardFlexContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.statesCardsContainer{
+    width: 48vw;
+    height: 76vh;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #ffffff;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.statesCardHandler{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.statesCard{
+    background-color: #9dede2;
+    border-radius: 10px;
+    margin: 10px;
+    height: 180px;
+    width: 260px;
+}
+
+
+.states{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+
+.days-background-container{
+    height: 100vh;
+    width: 100vw;
+    background-color: #b3c9f2;
+    
+}
+
+.controller{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.days-cards-container{
+    height: 55vh;
+    width: 20vw;
+    border-radius: 17px;
+    margin: 20px;
+    background-color: #ffffff;
+}
+.days-image-size{
+    height: 40vh;
+    border-radius: 17px;
+    padding: 5px;
+}
+
+.days-image-text-align{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.days-buttons-align{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+.payment-background{
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.payment-heading{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: "Lobster";
+    text-align: center;
+}
+
+.payment-navbar-background{
+    /* background-color: rgba(0,0,0,0.2) */
+    background-color: #fa8907;
+}
+
+.payment-gpay-image{
+    height: 100px;
+    width: 200px;
+}
+.payment-phonepay-image{
+    height: 60px;
+    width: 190px;
+}
+.payment-paytm-image{
+    height: 90px;
+    width: 210px;
+}
+.payment-radio-button{
+    height: 18px;
+    width: 18px;
+}
+
+.payment-container{
+    height: 50vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.payment-upi-container{
+    height: 50vh;
+    width: 30vw;
+    margin-left: 20px;
+}
+
+.payment-arrangement{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.upi-pin{
+    height: 45px;
+    margin-top: 15px;
+    border-width: 0px;
+    border-color: none;
+    letter-spacing: 3px;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+
+.upi-heading{
+    font-family: "Roboto";
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.proceed-btn-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: right;
+}
+.proceed-btn{
+    margin-top: 25px;
+    width: 100px;
+    margin-right: 25px;
+}
+
+
+.spinner-background{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner-heading{
+    height: 15px;
+    margin-top: 20px;
+    font-family: "Roboto";
+    letter-spacing: 2px;
+}
+
+.spinner-size{
+    height: 25px;
+    width: 25px;
+    color: #fa8907;
+}
+
+.payment-success-logo{
+    height: 110px;
+    width: 110px;
+}
+
+ 
